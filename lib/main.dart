@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:frontendtestkriya2020/productList/view/productListView.dart';
+import 'package:frontendtestkriya2020/core/presentation/view/productItemView.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,7 +9,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
